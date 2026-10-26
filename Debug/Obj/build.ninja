@@ -1,0 +1,36 @@
+#Generating source browse information for project Laser_sen0492
+
+
+#Abbreviations
+cc = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.3_2\common\bin\SourceIndexer.exe
+ll = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.3_2\common\bin\PbdLink.exe
+bd = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.3_2\common\bin\makeBrowseData.exe
+
+
+
+#Rules
+rule index
+  depfile = $out.dep
+  command = $cc -out=$out -f $in
+rule link
+  command = $ll -M $out $in
+rule browsedata
+  command = $bd $in -output  $out
+
+
+
+#Build steps
+build main.pbi : index main.xcl
+build stm8l15x_adc.pbi : index stm8l15x_adc.xcl
+build stm8l15x_clk.pbi : index stm8l15x_clk.xcl
+build stm8l15x_gpio.pbi : index stm8l15x_gpio.xcl
+build stm8l15x_iwdg.pbi : index stm8l15x_iwdg.xcl
+build stm8l15x_tim4.pbi : index stm8l15x_tim4.xcl
+build stm8l15x_usart.pbi : index stm8l15x_usart.xcl
+build Laser_sen0492_part0.pbi : link main.pbi stm8l15x_adc.pbi stm8l15x_clk.pbi
+build Laser_sen0492_part1.pbi : link stm8l15x_gpio.pbi stm8l15x_iwdg.pbi stm8l15x_tim4.pbi
+build Laser_sen0492_part2.pbi : link stm8l15x_usart.pbi
+build Laser_sen0492.pbd : link Laser_sen0492_part0.pbi Laser_sen0492_part1.pbi Laser_sen0492_part2.pbi
+build Laser_sen0492.pbw : browsedata Laser_sen0492.pbd
+
+

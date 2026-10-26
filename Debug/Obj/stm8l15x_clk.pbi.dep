@@ -1,0 +1,35 @@
+stm8l15x_clk.pbi: \
+  D:\Abdulmalik\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib-master\Libraries\STM8L15x_StdPeriph_Driver\src\stm8l15x_clk.c \
+  D:\Abdulmalik\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib-master\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_clk.h \
+  D:\Abdulmalik\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib-master\Libraries\STM8L15x_StdPeriph_Driver\inc/stm8l15x.h \
+  D:\Abdulmalik\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib-master\Project\STM8L15x_StdPeriph_Examples\ADC\ADC_AnalogWatchdog\stm8l15x_conf.h \
+  D:\Abdulmalik\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib-master\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x.h \
+  D:\Abdulmalik\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib-master\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_adc.h \
+  D:\Abdulmalik\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib-master\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_aes.h \
+  D:\Abdulmalik\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib-master\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_beep.h \
+  D:\Abdulmalik\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib-master\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_comp.h \
+  D:\Abdulmalik\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib-master\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_dac.h \
+  D:\Abdulmalik\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib-master\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_dma.h \
+  D:\Abdulmalik\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib-master\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_exti.h \
+  D:\Abdulmalik\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib-master\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_flash.h \
+  D:\Abdulmalik\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib-master\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_gpio.h \
+  D:\Abdulmalik\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib-master\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_i2c.h \
+  D:\Abdulmalik\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib-master\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_irtim.h \
+  D:\Abdulmalik\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib-master\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_itc.h \
+  D:\Abdulmalik\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib-master\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_iwdg.h \
+  D:\Abdulmalik\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib-master\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_lcd.h \
+  D:\Abdulmalik\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib-master\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_pwr.h \
+  D:\Abdulmalik\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib-master\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_rst.h \
+  D:\Abdulmalik\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib-master\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_rtc.h \
+  D:\Abdulmalik\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib-master\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_spi.h \
+  D:\Abdulmalik\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib-master\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_syscfg.h \
+  D:\Abdulmalik\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib-master\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim1.h \
+  D:\Abdulmalik\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib-master\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim2.h \
+  D:\Abdulmalik\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib-master\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim3.h \
+  D:\Abdulmalik\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib-master\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim4.h \
+  D:\Abdulmalik\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib-master\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_tim5.h \
+  D:\Abdulmalik\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib-master\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_usart.h \
+  D:\Abdulmalik\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib-master\Libraries\STM8L15x_StdPeriph_Driver\inc/stm8l15x_clk.h \
+  D:\Abdulmalik\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib-master\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_wfe.h \
+  D:\Abdulmalik\STM8L15x-16x-05x-AL31-L_StdPeriph_Lib-master\Libraries\STM8L15x_StdPeriph_Driver\inc\stm8l15x_wwdg.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3_2\stm8\inc\c\intrinsics.h
