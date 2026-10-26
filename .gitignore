@@ -1,0 +1,59 @@
+# ==========================================
+# Build output
+# ==========================================
+Debug/
+Release/
+
+# ==========================================
+# IAR Embedded Workbench
+# ==========================================
+
+# Dependency files
+*.dep
+
+# Browse information
+*.pbi
+*.pbd
+
+# Debug information
+*.dbg
+
+# Backup files
+*~
+
+# Auto-generated files
+*.log
+
+# ==========================================
+# Temporary files
+# ==========================================
+*.tmp
+*.bak
+
+# ==========================================
+# OS files
+# ==========================================
+Thumbs.db
+Desktop.ini
+
+# ==========================================
+# Editors
+# ==========================================
+.vscode/
+.idea/
+
+# ==========================================
+# Optional
+# Uncomment if you don't want to store them
+# ==========================================
+
+# readme.txt
+
+# IAR local files
+settings/*.cspy.bat
+settings/*.cspy.ps1
+settings/*.dbgdt
+settings/*.wsdt
+settings/*EditorBookmarks.xml
+settings/*.general.xcl
+settings/*.dnx
